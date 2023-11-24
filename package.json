@@ -1,0 +1,26 @@
+{
+  "name": "okapi",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "test1",
+    "build": "build",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TayFrambz/okapi.git"
+  },
+  "author": "tayframbz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TayFrambz/okapi/issues"
+  },
+  "homepage": "https://github.com/TayFrambz/okapi#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
